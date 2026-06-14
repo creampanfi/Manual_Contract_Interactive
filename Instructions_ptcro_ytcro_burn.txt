@@ -1,0 +1,16 @@
+PT/YTCRO burn:
+ 1. Go to Remix (https://remix.ethereum.org/)
+ 2. Upload Factory.abi or Factory_V2.abi (for pt/ytCRO or pt/ytCRO_V2)
+ 3. Open the Factory.abi or Factory_V2.abi in Remix
+ 4. Go to "Deploy and run transactions" tab
+ 5. In "Environment" setting, selection "Browser Extension" with Metamask or crypto.com Onchain wallet
+ 6. In "Deployed Contracts" setting, click "Add Contract" and paste contract address of Factory or Factory_V2 from address list document
+ 7. Select "burn" and enter the amount in "Functions" setting. The unit is 1e-18 CRO. 
+ 8. Press "Transact", then done.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+----- Contract Address ----- 
+Factory:            0x66f5997b7810723aCeEeb8a880846fC117081bd0
+Factory V2:         0xfd3300b2441072b35554f1043c3d3a413fd5c219
+-----

@@ -1,0 +1,41 @@
+Stake amount query:
+ 1. Go to Remix (https://remix.ethereum.org/)
+ 2. Upload MasterBaker.abi
+ 3. Open the MasterBaker.abi in Remix
+ 4. Go to "Deploy and run transactions" tab
+ 5. In "Environment" setting, selection "Browser Extension" with Metamask or crypto.com Onchain wallet
+ 6. In "Deployed Contracts" setting, click "Add Contract" and paste contract address of MasterBaker from address list document
+ 7. Select  "userInfo" in "Functions" setting
+ 8. Use the "pool id" listed below and your address to fill "param0" and "param1"
+ 9. Click "call". The result will show the stake amount. The unit is 1e-18 CRO. 
+
+
+Stake withdrawal:
+ 1. Go to Remix (https://remix.ethereum.org/)
+ 2. Upload MasterBaker.abi
+ 3. Open the MasterBaker.abi in Remix
+ 4. Go to "Deploy and run transactions" tab
+ 5. In "Environment" setting, selection "Browser Extension" with Metamask or crypto.com Onchain wallet
+ 6. In "Deployed Contracts" setting, click "Add Contract" and paste contract address of MasterBaker from address list document
+ 7-a. If "pool id" is 0, select "leaveStaking" in "Functions" setting
+ 8-a. Input "amount" to withdraw stake. The unit is 1e-18 CRO. 
+ 9-a. Click "Transact", then it is done.
+-----
+ 7-b. If "pool id" isn't 0, select "withdraw" in "Functions" setting
+ 8-b. Enter the "pool id" listed below and the "amount". The unit is 1e-18 CRO. 
+ 9-b. Click "Transact", then it is done.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Stake pool id:
+ 0: PAN
+ 1: ptCRO
+ 2: ytCRO
+ 3: ptCRO-WCRO LP
+ 4: ptCRO-WCRO LP
+ 5: PAN-WCRO LP
+ 8: ptCRO V2
+ 9: ytCRO V2
+10: ptCRO V2-WCRO LP
+11: ytCRO V2-WCRO LP
+-----

@@ -1,0 +1,18 @@
+VVS liquidity remove:
+ 1. Go to "https://legacy.vvs.finance/liquidity/v2"
+ 2. Click "Find other LP tokens manually"
+ 3. Select a token by paste the token address or listed below
+ 4. Select the other token (CRO, or WCRO)
+ 5. Click "Manage this pool"
+ 5. Click the pool and remove the liquidity
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+----- Contract Address ----- 
+WCRO:               0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23
+PanToken:           0xDa6c746E8a14EFE6E0A031F5d632bd2B0adC28Be
+ptCRO V1:           0x51f2AB325A81b0Eb36B0814Ca2fA8A23CB63d731
+ytCRO V1:           0x3D329Eb0eD1f460b4A52c9F70C20a1A5861f74E4
+ptCRO V2:           0x7bc5e77837d5c5368530f40b8aefdcf951591fe2
+ytCRO V2:           0x476967481e5bfa26e012e12b7da5a3326fffe700
+-----
